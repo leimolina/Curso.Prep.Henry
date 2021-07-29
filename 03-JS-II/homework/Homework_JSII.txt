@@ -1,0 +1,49 @@
+FOR <>
+Es un tipo de bucle.
+Esta conformado de 3 partes. una variable (i=0), una condicion (i<10) y una condicion incrementada (i++).
+
+&&
+Es un Operador Logico, se lo llama "and". Evalua dos expresiones y devuelve true si ambas lo son. Caso contrario devuelve false.
+ 
+
+||
+Es un Operador Logico, se lo llama "or". Evalua dos expresiones y devuelve false si ambas lo son. Caso contrario devuelve true. 
+
+!
+Es un Operador Logico, se lo llama "not". Evalua dos expresiones y devuelve lo opuesto de lo que se le pasa, puede ser true o false.
+
+SWITCH 
+
+La declaración switch evalúa una expresión, comparando el valor de esa expresión con una instancia case, 
+y ejecuta declaraciones asociadas a ese case, así como las declaraciones en los case que siguen.
+
+switch (expr) {
+  case 'Naranjas':
+    console.log('El kilogramo de naranjas cuesta $0.59.');
+    break;
+  case 'Manzanas':
+    console.log('El kilogramo de manzanas cuesta $0.32.');
+    break;
+  case 'Platanos':
+    console.log('El kilogramo de platanos cuesta $0.48.');
+    break;
+  case 'Cerezas':
+    console.log('El kilogramo de cerezas cuesta $3.00.');
+    break;
+  case 'Mangos':
+  case 'Papayas':
+    console.log('El kilogramo de mangos y papayas cuesta $2.79.');
+    break;
+  default:
+    console.log('Lo lamentamos, por el momento no disponemos de ' + expr + '.');
+}
+
+console.log("¿Hay algo más que te quisiera consultar?");
+
+DO WHILE (https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/do...while)
+
+La sentencia (hacer mientras) crea un bucle que ejecuta una sentencia especificada, hasta que la condición 
+de comprobación se evalúa como falsa. La condición se evalúa después de ejecutar la sentencia, dando como 
+resultado que la sentencia especificada se ejecute al menos una vez.
+- loops through a block of code once, and then repeats the loop while a specified condition is true
+
